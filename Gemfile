@@ -10,7 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 3.7.3"
 
-gem "minimal-mistakes-jekyll"
+gem "minimal-mistakes-jekyll", ">= 4.11.1"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -18,8 +18,8 @@ gem "minimal-mistakes-jekyll"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
-  gem "jekyll-data"
+  gem "jekyll-feed", "~> 0.9", ">= 0.9.3"
+  gem "jekyll-data", ">= 1.0.0"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
